@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: gray;
+    color: #ffffff;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajusta o body para ocupar a altura total da janela */
+
+}
+h1, h4{
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333333;
+    width: 100%; /* Faz o nav ocupar a largura total da janela */
+    padding: 10px; /* Adiciona espaçamento interno */
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+
+nav ul li:last-child {
+    margin-right: 0; /* Remover margem direita do último item */
+}
+
+
+a { 
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    background-color: #333333;
+    border-radius: 5px;
+    justify-content: flex-end;
+}
+
+.img-container { 
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+img{
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+
+}
+
+
+.texto{
+    text-align: center;
+    font-style: italic;
+    color: #333333;
+}
+
+
+
+button{
+    background-color: #333333;
+    height: 30px;
+    color: #ffffff;
+    margin: 10px;
+    opacity: 0.7;
+}
+
+
+form{
+    text-align: center;
+}
